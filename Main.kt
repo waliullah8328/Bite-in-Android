@@ -1,5 +1,7 @@
-fun main(){
-    val box = Box()
-    box.setValue(10,20)
-    box.show()
+package Inheritence
+
+fun main() {
+    val student = Student("Wali Ullah Ripon",21,"3.85")
+    student.show()
+    student.studentShow()
 }
